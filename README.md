@@ -1,5 +1,6 @@
 Sample Example:
 
+```
 provider "aws" {
 }
 
@@ -12,3 +13,4 @@ module "vpc" {
   product               = "test-product"
   subnetcount           = "3"
 }
+```
