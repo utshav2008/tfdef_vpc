@@ -15,7 +15,7 @@ variable "product" {
 }
 
 variable "environment" {
-  description = "Environment for billing purposes"
+  description = "Environment"
   type        = "string"
 }
 
@@ -37,9 +37,9 @@ variable "private_subnet_bits" {
   default     = "3"
 }
 
-/* NAT GW */
+
 variable "enable_nat_gw" {
-  description = "Enable nat gw. 1 is on. 0 is off"
+  description = "Enable nat gw"
   default     = "1"
 }
 
